@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 600px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+.header{
+    width: 100%;
+    height: 50px;
+    background-color:#198754;
+    border-top-left-radius:20px;
+    border-top-right-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: monospace;
+    font-weight: 700;
+    font-size: 20px;
+    color: white;
+}
+
+
+.pading_box{
+    width: 100%;
+    border: 1px solid gray;
+    margin: 0 auto;
+    padding: 40px;
+    border-bottom-left-radius:20px;
+    border-bottom-right-radius: 20px;
+}
+
+.flex_box{
+    display: flex;
+
+}
+
+
+.none{
+    display: none;
+}
+
+.account_page{
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+.account_header{
+    width: 100%;
+    height: 200px;
+    background-color:#198754;
+    border-top-left-radius:20px;
+    border-top-right-radius: 20px;
+}
+
+
+.account_avatar{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    background-color: black;
+    margin-top: -88px;
+    margin-bottom: 50px;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: monospace;
+}
+
+
+
+.account_name{
+    font-weight: 500;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.account_email{
+    font-weight: 200;
+    font-size: 25px;
+    color:rgb(26, 26, 26);
+    margin-bottom: 15px;
+}
+
+.account_position{
+    font-weight: 500;
+    font-size: 25px;
+    color: rgb(26, 26, 26);
+    margin-bottom: 50px;
+}
+
+.account_btn{
+    width: 100px;
+    height: 50px;
+    background-color: white;
+    border: 1px solid #198754;
+    color: #198754;
+    border-radius: 10px;
+    transition: all 0.4s;
+    margin-bottom: 30px;
+}
+
+.account_btn:hover{
+    background-color:#198754;
+    color: white;
+}
+
+.account_footer{
+    width: 100%;
+    height: 70px;
+    border-bottom-left-radius:20px;
+    border-bottom-right-radius: 20px;
+    background-color: #198754;
+
+}
+
+
+.men_avatar{
+    background-image: url(./image/1000_F_168802075_Il6LeUG0NCK4JOELmkC7Ki81g0CiLpxU.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.women_avatar{
+    background-image: url(./image/png-transparent-female-avatar-girl-face-woman-user-flat-classy-users-icon.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
